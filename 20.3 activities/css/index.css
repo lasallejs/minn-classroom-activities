@@ -1,0 +1,40 @@
+.customNav {
+    background-color: #333333;
+    padding: 20px 10px;
+
+}
+
+.customNav a { 
+    color: white !important;
+}
+
+.navbar-nav {
+    margin-left:auto;
+    margin-right: 0 !important;
+}
+
+.heroBackground {
+    background-image: url(../images/gw_app_header2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:700px;
+    height: cal(100vh - 25px);
+    display:flex;
+    justify-content: center;
+}
+.heroContent {
+    color:white;
+}
+
+.contentSection {
+    padding-top:100px;
+    padding-bottom: 100px;
+    
+
+}
+
+.heading {
+    color: #1F6894;
+    margin-bottom:40px;
+}
