@@ -37,4 +37,41 @@
 .heading {
     color: #1F6894;
     margin-bottom:40px;
+    margin-top:100px;
+}
+
+.sectionHeading {
+    background-color:#1F6894;
+    text-align: center;
+    color:white;
+    padding:50px 0px;
+    font-weight: bold;
+
+}
+.subHeading {
+    margin-top: 50px;
+}
+
+.analysisContainer{
+    display:grid;
+    grid-gap:10px;
+    grid-template-areas:
+    "affinity affinity"
+    "chart donut"
+    ;
+}
+
+.affinity {
+    grid-area: affinity;
+}
+
+.chart {
+    grid-area: chart;
+}
+.donut {
+    grid-area: donut;
+}
+
+.analysisContainer img, .userPersona img {
+    width:100%;
 }
